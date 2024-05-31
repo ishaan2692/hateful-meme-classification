@@ -48,6 +48,7 @@ The code is structured to handle various functionalities and user interactions:
 ```bash
 pip install -r requirements.txt
 ```
+create ".env" file in your current folder and define your google api key variable (i.e. GOOGLE_API_KEY='[YOUR_API_KEY]')
 
 ```bash
 streamlit run HMC.py
