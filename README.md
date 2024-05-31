@@ -47,6 +47,9 @@ The code is structured to handle various functionalities and user interactions:
 
 ```bash
 pip install -r requirements.txt
+```
+
+```bash
 streamlit run HMC.py
 ```
 
