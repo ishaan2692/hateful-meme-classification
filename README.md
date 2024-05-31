@@ -41,3 +41,13 @@ The code is structured to handle various functionalities and user interactions:
     - `st.sidebar` components: Create a navigation menu for users to select functionalities.
     - Conditional statements (`if selected_page == "Home"` etc.): Dynamically display content based on user selection.
     - Various Streamlit elements (`st.title`, `st.text_area`, `st.button`, `st.image`, etc.): Build an informative and interactive user interface.
+ 
+
+##To run this project, activate your virtual environment and type the following commands:
+
+```bash
+pip install -r requirements.txt
+streamlit run HMC.py
+```
+
+This will install the necessary dependencies and then start the Streamlit application.
