@@ -43,7 +43,7 @@ The code is structured to handle various functionalities and user interactions:
     - Various Streamlit elements (`st.title`, `st.text_area`, `st.button`, `st.image`, etc.): Build an informative and interactive user interface.
  
 
-##To run this project, activate your virtual environment and type the following commands:
+## To run this project, activate your virtual environment and type the following commands:
 
 ```bash
 pip install -r requirements.txt
