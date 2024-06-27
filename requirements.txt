@@ -2,4 +2,4 @@ streamlit
 requests
 google-generativeai
 python-dotenv
-PIL
+pillow
