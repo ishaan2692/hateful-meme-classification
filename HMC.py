@@ -7,6 +7,9 @@ from dotenv import load_dotenv
 import PIL.Image
 from PIL import UnidentifiedImageError
 
+load_dotenv()
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+genai.configure(api_key=GOOGLE_API_KEY)
 
 def generate_text(uploaded_file, prompt):
     try:
