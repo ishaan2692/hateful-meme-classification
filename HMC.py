@@ -17,7 +17,8 @@ def generate_text(uploaded_file, prompt):
             image = PIL.Image.open(uploaded_file)
             st.image(image, caption='Uploaded Image', use_column_width=True)
 
-        model = genai.GenerativeModel('gemini-1.0-pro-vision-latest')
+        #model = genai.GenerativeModel('gemini-1.0-pro-vision-latest') #'gemini-1.5-flash-latest'
+        model = genai.GenerativeModel('gemini-1.5-flash-latest') #'gemini-1.5-flash-latest'
 
         with st.spinner('Generating...'):
             response = model.generate_content([prompt, image], stream=True)
