@@ -41,7 +41,8 @@ def generate_text(uploaded_file, prompt):
 
 def chatbot(prompt):
     try:
-        model = genai.GenerativeModel('gemini-1.0-pro-latest')
+        #model = genai.GenerativeModel('gemini-1.0-pro-latest') #this model is discontinued
+        model = genai.GenerativeModel('gemini-1.5-flash-latest')
         response = model.generate_content(prompt)
         return response.text
     except ValueError as e:
